@@ -1,3 +1,24 @@
-build
+#
+# .gitignore
+#
+
+## Backup & Temporary Files ##
+
+*~
+*.bak
+*.tmp
+
+
+## Build Artifacts ##
+
+build/
+build-*/
+/build/
+/build-*/
 .cache
 compile_commands.json
+
+
+## IDE Files (ie: QT Creator, CLion, VSCode, etc.) ##
+
+CMakeLists.txt.user
